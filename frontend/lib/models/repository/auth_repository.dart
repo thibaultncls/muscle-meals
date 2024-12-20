@@ -126,7 +126,7 @@ class AuthRepository {
     try {
       await _storage.delete(key: LocalKeys.accessToken);
       await _storage.delete(key: LocalKeys.refreshToken);
-      return SuccessUserResult('Vous vous êtes déconnecter');
+      return SuccessUserResult('Vous vous êtes déconnecté');
     } catch (e) {
       return ErrorResult(e.toString());
     }
