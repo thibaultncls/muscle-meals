@@ -46,3 +46,4 @@ app.*.map.json
 .env
 .DS_Store
 /backend/node_modules
+/frontend/build
